@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+
+            <h2>Please type country name here to know more details-   </h2>
+
+
+            <!-- Search bar -->
+            <input type="text" id="searchInput" placeholder="Search for a country" oninput="Autocomplete()">
+            <button onclick="searchCountry()">Search</button>
+
+            
+
+             <!-- Autocomplete dropdown -->
+             <div id="autocompleteDropdown" class="autocomplete-dropdown"></div>
+             
+
+    
+            <!-- Display search results -->
+            <div id="searchResults" class="grid-container">
+                <!-- Results will be dynamically added here -->
+            </div>
+            
+            <!-- Container for weather details -->
+            <div id="weatherDetailsContainer"></div>
+        </div>
+    </main>
+    
+    
+    
+    <footer>
+        <!-- Footer content -->
+        <p style="text-align: center;">&copy; 2024 Country Data Website By Sakil</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

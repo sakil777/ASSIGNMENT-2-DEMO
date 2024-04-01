@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+
+
+/* This styles the navigation bar */
+nav {
+    text-align: center; /* Center align the navigation text */
+
+    
+    padding: 5px ; /* Add padding to top and bottom */
+    position: sticky;
+    top: 0; /* Stick the navbar to the top of the viewport */
+    
+}
+
+nav ul {
+    list-style-type: none; /* Removes the default list styling */
+    padding: 0; /* Removes the default padding */
+    margin: 0; /* Centers the menu by removing the default margin */
+    display: inline-block; /* Allows the list to center align in the nav */
+    width: 100%; /* Ensures the nav takes the full width */
+}
+
+nav ul li {
+    display: inline; /* Displays the list items inline */
+    margin-right: 20px; /* Adds some space between the menu items */
+}
+
+nav ul li a {
+    font-weight: bold; /* Makes the text bold */
+    text-decoration: none; /* Removes the underline from links */
+    color: #fefcfc; /* Set the color of the text */
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    color: #555; /* Changes the color of the text on hover */
+}
+
+
+
+.container h2 {
+    color: #333; /* Sets the color of the text */
+    text-align: center; /* Centers the text */
+    margin-bottom: 20px; /* Adds some space between the title and the search box */
+    font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+
+
+.container {
+    text-align: center; /* Center align the content */
+    margin: auto; /* Auto margins make it centered horizontally */
+    max-width: 600px; /* Adjust based on your preference */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the box */
+    border-radius: 5px; /* Optional: Rounds the corners of the box */
+}
+
+#searchInput {
+    width: 70%; /* Makes the input field take up 70% of its parent's width */
+    padding: 10px; /* Adds some padding inside the input field */
+    margin-right: 10px; /* Adds a small margin to the right of the input field */
+    border: 1px solid #ccc; /* Adds a border to the input field */
+    border-radius: 4px; /* Rounds the corners of the input field */
+}
+
+button {
+    padding: 10px 20px; /* Adds padding inside the button */
+    border: none; /* Removes the default border */
+    background-color: #007bff; /* Sets the background color */
+    color: white; /* Sets the text color */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    border-radius: 4px; /* Rounds the corners of the button */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr,));
+    grid-gap: 20px;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.country-card img {
+    width: 60%;
+    height: auto;
+}
+
+
+header {
+    background-color: #ff0000; /* Red navbar */
+    padding: 30px 0;
+}
+
+
+
+body, html {
+    height: 100%; /* Ensures the body takes at least the full height of the viewport */
+    margin: 0; /* Resets default margin */
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks flex items vertically */
+}
+
+main {
+    flex: 1; /* Allows the main content to grow and take up available space */
+}
+
+footer {
+    text-align: center; /* Centers the footer text */
+    padding: 10px 0; /* Adds padding above and below the footer text */
+    background-color:rgb(240, 235, 235) ;
+    color: #ff0000;
+    
+    top: 0;
+   
+    width: 100%;
+    bottom: 0;
+}
+
+
+ul.social-media li img {
+    width: 30px; /* Set width of social media icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 30px; /* Add some spacing between icons */
+}
+
+
+.study.abroad {
+    text-align: center; /* Center align the content */
+    max-width: 600px; /* Limit the width of the container */
+    margin: auto; /* Center the container horizontally */
+}
+
+.study.abroad h2 {
+    margin-bottom: 10px; /* Add space below each heading */
+}
+
+
